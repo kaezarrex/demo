@@ -13,6 +13,10 @@ class TestMathFunctions(unittest.TestCase):
         result = utils.subtract(1, 2)
         self.assertEqual(result, -1)
 
+    def test_multiply(self):
+        result = utils.multiply(3, 6)
+        self.assertEqual(result, 18)
+
 
 if __name__ == '__main__':
     unittest.main()
