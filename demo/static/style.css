@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: georgia, serif;
+    font-size: 18px;
+    color: #333;
+}
+
+@media (max-width : 640px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h1, h2 {
+    font-family: arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
