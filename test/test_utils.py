@@ -1,6 +1,6 @@
 import unittest
 
-import utils
+from demo import utils
 
 
 class TestMathFunctions(unittest.TestCase):
