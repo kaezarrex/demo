@@ -1,3 +1,3 @@
 # Project 1
 
-[Return to index](../index)
+[Return to index](../index.md)
