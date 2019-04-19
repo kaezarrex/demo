@@ -9,7 +9,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'Flask==0.10.1',
-        'gunicorn==18.0'
+        'Flask==0.12.3',
+        'gunicorn==19.5.0'
     ]
 )
