@@ -10,6 +10,6 @@ setup(
     zip_safe=False,
     install_requires=[
         'Flask==1.1.1',
-        'gunicorn==19.9.0'
+        'gunicorn==20.0.2'
     ]
 )
